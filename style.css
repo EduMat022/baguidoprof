@@ -1,0 +1,16 @@
+body{
+    margin: 0px;
+    border: 0px;
+    background: #00572b;
+}
+
+.titulo {
+    font-size: 40px;
+    text-align: center;
+    color: #4ad44a;
+}
+
+#reciclagem {
+    width: 300px;
+    height: 300px;
+}
