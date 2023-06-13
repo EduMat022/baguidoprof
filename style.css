@@ -1,16 +1,32 @@
+:root {
+--branco-principal: #FFFFFF;
+--cinza-secundario: #C0C0C0;
+--botao-azul: #167BF7;
+--cor-de-fundo: #00030C;
+}
+
 body{
-    margin: 0px;
-    border: 0px;
-    background: #00572b;
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+}
+
+* {
+    margin:0;
+    padding:0;
 }
 
 .titulo {
-    font-size: 40px;
-    text-align: center;
-    color: #4ad44a;
+    margin: 20px;
 }
 
-#reciclagem {
-    width: 300px;
-    height: 300px;
+.combo {
+    margin: 20px;
+}
+
+.botao {
+    margin: 20px;
+}
+
+#button :hover {
+    margin: 20px;   
 }
